@@ -1,0 +1,20 @@
+{
+  "name": "keychain-converter",
+  "version": "0.1.0",
+  "description": "keychain to bitwarden csv converter",
+  "main": "src/index.ts",
+  "author": "t <taamjoe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/exceljs": "^1.3.0",
+    "@types/node": "^16.11.12",
+    "typescript": "^4.5.3"
+  },
+  "dependencies": {
+    "exceljs": "^4.3.0"
+  }
+}
